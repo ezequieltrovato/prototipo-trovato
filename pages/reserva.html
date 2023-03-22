@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>RESERVA</title>
+</head>
+<body>
+    
+<header> <!--barra de navegacion-->
+        <nav>
+        <ul class="ul">                
+                    <li class="li">
+                        <a href="../index.html"><img  src="../img/fondo/latorrehostel.jpg" alt="icono" width="10%"></a></li>         
+                        <li class="li">
+                        <a href="../index.html">MENU</a>
+                    </li>
+                    <li class="li">
+                        <a href="./servicios.html">SERVICIOS</a>
+                    </li>
+                    <li class="li">
+                        <a href="./galeria.html">GALERIA</a>
+                    </li>
+                    <li class="li">
+                        <a href="./ubicacion.html">UBICACION</a>
+                    </li>
+                    <li class="li">
+                        <a href="./reserva.html">RESERVA</a>
+                    </li>
+                    <li class="li">
+                        <a href="./residencia.html">RESIDENCIA</a>
+                    </li>
+            </ul>
+        </nav>
+    </header>
+</main> <!--formulario de reserva-->
+<h1 class="h1"> Reservar completando el formulario</h1>
+    <form class="formulario">
+        <label for="name" class="label">NOMBRE:</label>
+        <input type="text" id="name" name="name" class="input">
+        <label for="lname" class="label">APELLIDO:</label>
+        <input type="text" id="lname" name="lname" class="input">
+        <label for="number" class="label">TELEFONO</label> 
+        <input type="number" id="number" name="number" class="input">
+        <label for="mail" class="label">MAIL</label>
+        <input type="email" name="mail" id="mail" class="input">
+        <label for="date" class="label">FECHA DE INGRESO</label>
+        <input type="date" id="date" date="date" class="input"></input>
+        <label for="radio" class="label">HABITACION INDIVIDUAL</label>
+        <input type="radio" name="HABITACION" id="HABITACION" class="input">
+        <label for="radio" class="label">HABITACION x 4</label>
+        <input type="radio" name="HABITACION" id="HABITACION" class="input">
+        <label for="radio" class="label">HABITACION x 6</label>
+        <input type="radio" name="HABITACION" id="HABITACION" class="input">
+    <h3 class="h3">COMENTARIO</h3>
+        <label for="text" class="label"></label>
+        
+        <textarea  name="text" id="text" cols="45" rows="10"></textarea><br>
+        <button type="submit" value="submit">ENVIAR</button>
+        <h4 class="h3"> A LA BREVEDAD LE ESTAREMOS ENVIANDO UNA RESPUESTA</h4> 
+    </form>
+    
+    <!--redes-->
+<footer> 
+    <div class="container-fluid">
+        <div class="col p-10 mt-5">
+                
+                <div class="row-xs-12 row-md-8 row-lg-6">
+                    <a target="_blank" href="https://www.instagram.com/casa_la_torre_mdp/?next=%2F">
+                        <img src="../img/fondo/iconos/icons8-instagram.svg" alt="icono instagram"></a>   
+                </div>
+                <div class="row-xs-12 row-md-6 row-lg-3">
+                    <a target="_blank"href="https://www.facebook.com/Latorremardelplata?paipv=0&eav=Afb8zsIfS1-5_x5h6Wieg5LSdOby6JA72LX4Ff8fGbTlFO50txLjLBIxqN9G900y6xI"><img src="../img/fondo/iconos/icons8-facebook-nuevo.svg" alt="logo facebook"></a>  
+                </div>
+                <div class="row-xs-12 row-md-6 row-lg-3">
+                    <a target="_blank" href="https://api.whatsapp.com/send?phone=2236010944"> <img src="../img/fondo/iconos/icons8-whatsapp.svg" alt="whatsapp"></a>
+                </div>
+                <div class="row-xs-12 row-md-6 row-lg-3">
+                    <p class="h4">Hostel la torre</p>
+                    <p class="text-secundary">Mendoza 2334</p>
+                </div>
+            </div>
+    </div>
+</footer> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>      
+</html>
